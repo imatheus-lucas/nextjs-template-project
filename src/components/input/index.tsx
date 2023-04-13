@@ -5,7 +5,7 @@ type InputProps = JSX.IntrinsicElements["input"] & {
 export function Input({ label, ...props }: InputProps) {
   return (
     <div className="p-2 bg-gray-100 rounded-md">
-      <label>{label}</label>
+      <label>{label}v1</label>
       <input {...props} placeholder="Write..." />
     </div>
   );
