@@ -1,0 +1,27 @@
+.btn-primary {
+  @apply bg-blue-600 rounded-md text-white px-4 py-2;
+}
+
+.btn-primary:hover {
+  @apply bg-blue-700;
+}
+
+.btn-primary:active {
+  @apply bg-blue-800;
+}
+
+.btn-disabled {
+  @apply bg-gray-300 rounded-md text-gray-600 px-4 py-2 cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply border border-gray-600 rounded-md text-blue-600 px-4 py-2;
+}
+
+.btn-secondary:hover {
+  @apply bg-gray-100;
+}
+
+.btn-secondary:active {
+  @apply bg-gray-200;
+}
