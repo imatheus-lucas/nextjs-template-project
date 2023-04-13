@@ -22,7 +22,7 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
-      "test"
+      "test --findRelatedTests"
     ]
   },
   "dependencies": {
