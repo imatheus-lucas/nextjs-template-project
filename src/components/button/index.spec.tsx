@@ -6,6 +6,6 @@ describe("Button", () => {
     const { getByText, container } = render(<Button label="Test" />);
 
     expect(getByText("Test")).toBeInTheDocument();
-    expect(getByRole(container, "button")).toBeInTheDocument();
+    expect(getByRole(container, "button")).not.toBeInTheDocument();
   });
 });

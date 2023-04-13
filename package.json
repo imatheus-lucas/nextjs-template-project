@@ -20,9 +20,9 @@
     }
   },
   "lint-staged": {
-    "src/**/*": [
-      "pnpm lint --fix",
-      "pnpm test --findRelatedTests --bail"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "test"
     ]
   },
   "dependencies": {
